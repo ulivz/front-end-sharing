@@ -12,12 +12,8 @@
 _Navigator Browser 1.0_
 
 <p align="center">
-
-![](img/3.png)
-
+    <img src="img/3.png"/>
 </p>
-
-![](img/3.png)
 
 _Brendan Eich_
 
