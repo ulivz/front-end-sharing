@@ -111,12 +111,17 @@ name.add(n);
 
 ## 3. Working principle of browsers
 
+There is a very classic topic in the front-end field called：["**What really happens when you navigate to a URL?**"](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/), of course, DNS lookup and how to build TCP/IP connections are not the focus of this session. the focus of this section is know how the browser render the page after getting the HTML page content:
+
+
 <p align="center">
     <img src="img/5.png"/><br>
     <b>The basic flow of the rendering engine.</b>
 </p>
 
 <br>
+
+How do HTML and CSS collaborate? 
 
 <p align="center">
     <img src="img/6.png"/><br>
