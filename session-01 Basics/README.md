@@ -74,7 +74,16 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 - **Statically Typed**:
 
-
+```java
+List<String> name = Arrays.asList("xxx", "yyy", "zzz");
+int n = 10;
+name.add(n); 
+/* Error:(14, 21) java: no suitable method found for add(int)
+    method java.util.Collection.add(java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method java.util.List.add(java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String) */
+```
 
 - **Dynamiclly Typed**
 
