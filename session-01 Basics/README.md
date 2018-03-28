@@ -11,7 +11,12 @@
 
 _Navigator Browser 1.0_
 
-<a href='https://github.com/ulivz/front-end-sharing/blob/master/session-01%20Basics/img/3.png?raw=true'></a>
+<p align="center">
+
+![](img/3.png)
+
+</p>
+
 ![](img/3.png)
 
 _Brendan Eich_
