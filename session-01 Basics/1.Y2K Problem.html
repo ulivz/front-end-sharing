@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Y2K Problem</title>
+</head>
+<body>
+<script>
+  var date1 = new Date(1999, 0, 1);
+  var year1 = date1.getYear();
+  alert(year1); // 99
+
+  var date2 = new Date(2000, 0, 1);
+  var year2 = date2.getYear();
+  alert(year2); // 100 ???
+
+  var fullyear2 = date2.getFullYear();
+  alert(fullyear2); // 2000
+</script>
+</body>
+</html>
