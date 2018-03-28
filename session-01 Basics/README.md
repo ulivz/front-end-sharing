@@ -37,7 +37,7 @@ In general, the idea of **Brendan Eich**'s design is this:
 ## 2. JavaScript & Java
 
 <p align="center">
-    <img src="img/4.png"/><br>
+    <img src="img/7.png"/><br>
     <b>The relationship between JavaScript and Java</b>
 </p>
 
@@ -121,7 +121,7 @@ There is a very classic topic in the front-end field called：["**What really ha
 
 <br>
 
-How do HTML and CSS collaborate? 
+How do HTML and CSS collaborate?
 
 <p align="center">
     <img src="img/6.png"/><br>
