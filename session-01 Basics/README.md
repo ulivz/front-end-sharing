@@ -129,3 +129,54 @@ How do HTML and CSS collaborate?
 </p>
 
 
+## 4. Basic concepts of JavaScript
+
+### 4.1 Syntax
+
+- Case sensitive
+- Identifier
+- Comments
+- Strict mode
+
+### 4.2 Type
+
+- typeof
+- Undefined
+- Null
+- Boolean
+- Number
+- String
+- Object
+
+### 4.3 Function & Scope
+
+### 4.4 Object Type
+
+- Object
+- Array
+- Date
+- RegExp
+- Function
+
+### 4.5 How does JavaScript interact with HTML
+
+```js
+var app = document.getElementById('app')
+app.innerHTML = '<h1>BOLT</h1>'
+```
+
+### 4.6 Event Loop Introduction
+
+<p align="center">
+    <img src="img/8.png"/><br>
+    <b>Event Loop</b>
+</p>
+
+
+
+
+
+
+
+
+
