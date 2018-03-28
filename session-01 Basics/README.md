@@ -107,33 +107,20 @@ name.add(n);
 'string'
 ```
 
+<br>
 
+## 3. Working principle of browsers
 
+<p align="center">
+    <img src="img/5.png"/><br>
+    <b>The basic flow of the rendering engine.</b>
+</p>
 
+<br>
 
+<p align="center">
+    <img src="img/6.png"/><br>
+    <b>CSSOM + DOM ===> Render Tree</b>
+</p>
 
-
-
-
-
-
-
-
-
-3. (Dynamic type), Java (static type);
-4. JavaScript (weak type Java, belongs to the strong type; object oriented JavaScript (prototype-based) is based on the prototype implementation, is based on the type of Java (class-based);
-
-
-- The same points:
-
-  1. C-like language
-  2. OOP & FP
-
-
-- Difference：
-
-
-
-
-## JavaScript
 
