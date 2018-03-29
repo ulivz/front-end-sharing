@@ -165,6 +165,34 @@ So, how do HTML and CSS collaborate?
 - String
 - Object
 
+```js
+var num = 1;
+var isHoliday = false;
+var name = 'BOLT';
+var teams = ['Dragon Bolt', 'Great Wall'];
+var sites = {
+  ZA: 'Gumtree',
+  MX: 'Vivanuncios'
+};
+
+teams[0] // 'Dragon Bolt'
+teams[1] // 'Great Wall'
+
+sites.ZA // 'Gumtree'
+sites.MX // 'Vivanuncios'
+
+luke // Uncaught ReferenceError: luke is not defined
+sites.luke // undefined
+
+typeof num        // 'num'
+typeof name       // 'string'
+typeof isHoliday  // 'boolean'
+typeof teams      // 'object'
+typeof sites      // 'object'
+typeof null       // 'object'
+typeof luke       // 'undefined'
+```
+
 <br>
 
 ### 4.3 Function & Scope
