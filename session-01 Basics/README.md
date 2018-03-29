@@ -173,6 +173,42 @@ app.innerHTML = '<h1>BOLT</h1>'
 </p>
 
 
+<br>
+
+## 5. Basic concepts of CSS
+
+### 5.1 Basic unit
+### 5.2 Selector
+### 5.3 Basic style
+### 5.4 Text
+### 5.5 Display
+
+- inline
+- inline-block
+- block
+
+### 5.6 Layout
+
+- float
+- position
+
+### 5.7 Animation Introduction
+
+
+
+## Question
+
+1.
+
+```js
+(function() {
+   var a = b = 5;
+})();
+ 
+console.log(b);
+```
+
+
 
 
 
