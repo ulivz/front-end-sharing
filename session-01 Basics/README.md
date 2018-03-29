@@ -182,8 +182,13 @@ So, how do HTML and CSS collaborate?
     bar(b * 3)
   }
 
-  foo(2) // 2,4,12
+  foo(2)
 ```
+
+<details>
+<summary>Check out the answer</summary>
+2,4,12
+</details>
 
 <br>
 <br>
@@ -229,7 +234,7 @@ test();
 ```
 
 <details>
-<summary>Check out Answer</summary>
+<summary>Check out the answer</summary>
 2
 </details>
 
@@ -273,7 +278,7 @@ test();
 ```
 
 <details>
-<summary>Answer</summary>
+<summary>Check out the answer</summary>
 // Uncaught ReferenceError: a is not defined
 </details>
 
