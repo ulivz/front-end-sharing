@@ -140,6 +140,9 @@ So, how do HTML and CSS collaborate?
     <b>CSSOM + DOM ===> Render Tree</b>
 </p>
 
+<br>
+<br>
+
 
 ## 4. Basic concepts of JavaScript
 
@@ -149,6 +152,8 @@ So, how do HTML and CSS collaborate?
 - Identifier
 - Comments
 - Strict mode ('use strict')
+
+<br>
 
 ### 4.2 Type
 
@@ -160,9 +165,11 @@ So, how do HTML and CSS collaborate?
 - String
 - Object
 
+<br>
+
 ### 4.3 Function & Scope
 
-- Fragment 1
+- **_Fragment 1_**
 
 ```js
  function foo(a) {
@@ -178,7 +185,10 @@ So, how do HTML and CSS collaborate?
   foo(2) // 2,4,12
 ```
 
-- Fragment 2
+<br>
+<br>
+
+- **_Fragment 2_**
 
 ```js
 (function() {
@@ -199,7 +209,10 @@ is equal to:
 console.log(b);
 ```
 
-- Fragment 3
+<br>
+<br>
+
+- **_Fragment 3_**
 
 ```js
 function test() {
@@ -216,9 +229,12 @@ test();
 ```
 
 <details>
-<summary>Answer</summary>
+<summary>Check out Answer</summary>
 2
 </details>
+
+<br>
+<br>
 
 is equal to:
 
@@ -238,6 +254,8 @@ function test() {
 test();
 ```
 
+<br>
+<br>
 
 
 ```js
@@ -258,6 +276,9 @@ test();
 <summary>Answer</summary>
 // Uncaught ReferenceError: a is not defined
 </details>
+
+<br>
+<br>
 
 ### 4.4 Object Type
 
