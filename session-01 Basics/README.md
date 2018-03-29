@@ -124,6 +124,8 @@ node.js:
 There is a very classic topic in the front-end field called：["**What really happens when you navigate to a URL?**"](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/), of course, DNS lookup and how to build TCP/IP connections are not the focus of this session. the focus of this section is know how the browser render the page after getting the HTML page content:
 
 
+<br>
+
 <p align="center">
     <img src="img/5.png"/><br>
     <b>The basic flow of the rendering engine.</b>
@@ -131,7 +133,7 @@ There is a very classic topic in the front-end field called：["**What really ha
 
 <br>
 
-How do HTML and CSS collaborate?
+So, how do HTML and CSS collaborate?
 
 <p align="center">
     <img src="img/6.png"/><br>
@@ -146,7 +148,7 @@ How do HTML and CSS collaborate?
 - Case sensitive
 - Identifier
 - Comments
-- Strict mode
+- Strict mode ('use strict')
 
 ### 4.2 Type
 
@@ -159,6 +161,103 @@ How do HTML and CSS collaborate?
 - Object
 
 ### 4.3 Function & Scope
+
+- Fragment 1
+
+```js
+ function foo(a) {
+    var b = a * 2;
+
+    function bar(c) {
+      console.log(a, b, c)
+    }
+
+    bar(b * 3)
+  }
+
+  foo(2) // 2,4,12
+```
+
+- Fragment 2
+
+```js
+(function() {
+   var a = b = 5;
+})();
+ 
+console.log(b); // 5
+````
+
+is equal to:
+
+```js
+(function() {
+   'use strict';
+   var a = window.b = 5;
+})();
+ 
+console.log(b);
+```
+
+- Fragment 3
+
+```js
+function test() {
+   console.log(a);
+   console.log(foo());
+   
+   var a = 1;
+   function foo() {
+      return 2;
+   }
+}
+ 
+test();
+```
+
+<details>
+<summary>Answer</summary>
+2
+</details>
+
+is equal to:
+
+```js
+function test() {
+   var a;
+   function foo() {
+      return 2;
+   }
+ 
+   console.log(a);
+   console.log(foo());
+   
+   a = 1;
+}
+ 
+test();
+```
+
+
+
+```js
+function test() {
+   console.log(a);
+   console.log(foo());
+   
+   let a = 1;
+   let foo = function() {
+      return 2;
+   }
+}
+ 
+test(); 
+```
+
+<details>
+<summary>Answer</summary>
+// Uncaught ReferenceError: a is not defined
+</details>
 
 ### 4.4 Object Type
 

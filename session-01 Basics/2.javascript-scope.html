@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Scope</title>
+</head>
+<body>
+<div id="app">
+	<h1>Dragon Bolt</h1>
+</div>
+<script src="http://unpkg.com/jquery"></script>
+<script>
+  function foo(a) {
+    var b = a * 2;
+
+    function bar(c) {
+      console.log(a, b, c)
+    }
+
+    bar(b * 3)
+  }
+
+  foo(2) // 2,4,12
+</script>
+</body>
+</html>
