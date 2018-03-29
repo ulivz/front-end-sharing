@@ -358,10 +358,67 @@ printing();
 ## 5. Basic concepts of CSS
 
 ### 5.1 Basic unit
+
+- px
+- em
+- rem
+- vw
+- vh
+- %
+- number
+
 ### 5.2 Selector
+
+- ID Selector：`#id`
+- Class Selector：`.class`
+- Element Selector：`element`
+- General Selector：`*`
+- AttributeSelector ：
+  - `[attr]`
+  - `[attr=value]`
+- Children Selector：
+  - `>`：Direct child
+  - ` `：General child
+- sibling
+  - `+`：Adjacent sibling
+  - `~`：General sibling
+- Pseudo classes：
+  - `:active`
+  - `:first-child`
+  - `:last-child`
+  - `:nth-child([even/odd/n])`
+- Pseudo elements：
+  - `::after`
+  - `::before`
+  - `::selection`
+
 ### 5.3 Basic style
-### 5.4 Text
-### 5.5 Display
+
+- Styling text
+  - Basic
+    - font-size (px、em、rem)
+    - font-style：`normal`/`italic`/ `oblique`
+    - font-weight: `normal`/ `lighter` / `bolder` / `100-900`
+    - text-transform: `none` / `uppercase` / `lowercase` / `capitalize` / `full-width`
+    - text-decoration: `none` / `underline` / `overline` / `line-through`
+    - text-shadow
+    - text-align：`left` / `right` / `center` / `justify`
+    - line-height
+    - letter-spacing
+  - List
+    - list-style
+  - Link
+    - :link
+    - :visited
+    - :hover
+    - :focus
+    - :focus
+    - :active
+  - Font
+    - font-family
+    - @font-face
+
+### 5.4 Display
 
 - inline
 - inline-block
@@ -372,21 +429,13 @@ printing();
 - float
 - position
 
-### 5.7 Animation Introduction
 
+<br>
+<br>
+<br>
 
+## Q & A
 
-## Question
-
-1.
-
-```js
-(function() {
-   var a = b = 5;
-})();
- 
-console.log(b);
-```
 
 
 
