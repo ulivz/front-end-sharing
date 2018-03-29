@@ -165,6 +165,14 @@ So, how do HTML and CSS collaborate?
 - String
 - Object
 
+Object type includes:
+
+- Object
+- Array
+- Date
+- RegExp
+- Function
+
 ```js
 var num = 1;
 var isHoliday = false;
@@ -313,28 +321,37 @@ test();
 <br>
 <br>
 
-### 4.4 Object Type
 
-- Object
-- Array
-- Date
-- RegExp
-- Function
 
-### 4.5 How does JavaScript interact with HTML
+### 4.4 How does JavaScript interact with HTML
 
 ```js
 var app = document.getElementById('app')
 app.innerHTML = '<h1>BOLT</h1>'
 ```
 
-### 4.6 Event Loop Introduction
+Global APIs that can be used to interact with browsers：
+
+- window
+- document
+
+### 4.5 Event Loop Introduction
 
 <p align="center">
     <img src="img/8.png"/><br>
     <b>Event Loop</b>
 </p>
 
+
+```js
+function printing() {
+   console.log(1);
+   setTimeout(function() { console.log(2); }, 1000);
+   setTimeout(function() { console.log(3); }, 0);
+   console.log(4);
+}
+printing();
+```
 
 <br>
 
